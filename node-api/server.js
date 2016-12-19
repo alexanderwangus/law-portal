@@ -52,8 +52,11 @@ router.get('/', function(req, res) {
 });
 
 router.get('/range', function(req, res) {
+	console.log("In range");
 	var startYear = parseInt(req.query.start);
-	var endYear = parseInt(req.query.end);
+	var endYear = parseInt();
+	console.log(startYear);
+	console.log(endYear);
 	var MongoClient = require('mongodb').MongoClient;
 	MongoClient.connect("mongodb://localhost:27017/test", function(err, db) {
 	  if(err) { return console.dir(err); }
