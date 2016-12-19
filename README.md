@@ -4,6 +4,12 @@
 
 This project uses Node.js and MongoDB. Make sure you have both installed on your machine, and have MongoDB up and running before proceeding.
 
+With Node installed, navigate to the root directory of this project and run:
+```
+node install
+```
+This will install all the required node modules to run this project.
+
 ## Usage
 
 First we must populate the MongoDB with data. We have a script that inserts fake data into MongoDB. Check the load_data_mongo.py file to make sure the url it is connecting to matches what you have set up for your MongoDB.
