@@ -6,7 +6,7 @@ This project uses Node.js and MongoDB. Make sure you have both installed on your
 
 With Node installed, navigate to the root directory of this project and run:
 ```
-node install
+npm install
 ```
 This will install all the required node modules to run this project.
 
